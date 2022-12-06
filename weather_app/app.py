@@ -12,7 +12,7 @@ def parser():
     return args
 
 
-data = parser()
+args = parser()
 
 
 def coordinates(city):
@@ -29,5 +29,5 @@ def fetch_weather(city):
     return [round(forcast['main']['temp']), round(forcast['main']['feels_like']), forcast['weather'][0]['main']]
 
 
-output = fetch_weather(city=data.city)
+output = fetch_weather(city=args.city)
 print(f"Current temp: {output[0]} °C, Feel-like temp: {output[1]} °C, Sky: {output[2]}")
