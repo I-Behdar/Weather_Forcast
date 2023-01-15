@@ -3,7 +3,7 @@
 - [ ] Run setup.py
 - [ ] Run setup.sh
 
-## Installation
+## Usage
 
 - [ ] python app.py city
 - [ ] Example: python app.py warsaw
