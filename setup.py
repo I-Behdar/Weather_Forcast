@@ -5,6 +5,6 @@ setup(name='weather_app',
       description='Weather forcast',
       packages=['weather_app'],
       install_requires=[
-        "pandas",
+        "requests",
       ]
      )
